@@ -4,7 +4,7 @@ const BROWSER_PATH = {
   // App.jsx에서, path 추가할때 사용하시면 됩니다. 예시코드 9번줄
 };
 
-const API_PATH = {};
+const API_PATH = {};  
 
 const KAKAO_REDIRECT_URL = ``;
 

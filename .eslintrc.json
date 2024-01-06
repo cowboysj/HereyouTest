@@ -1,5 +1,10 @@
 {
-  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
   "rules": {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
