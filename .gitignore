@@ -3,3 +3,4 @@ yarn.lock
 vite.config.js
 /package-lock.json
 .vercel
+.env
