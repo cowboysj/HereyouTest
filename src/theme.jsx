@@ -15,6 +15,7 @@ const WINDOW_SIZE = {
  * COLUMN_CENTER: 세로 정렬
  */
 const ALIGN = {
+  // FLEX
   ROW_CENTER: `
     display: flex;
     justify-contents: center;

@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import { BROWSER_PATH } from './constants/path';
+import { BASE_PATH } from './constants/path';
 import { ErrorPage, Home } from './pages';
 import AppLayout from './pages/AppLayout';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -8,7 +8,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 const router = createBrowserRouter([
   {
-    path: `${BROWSER_PATH.BASE}`,
+    path: `${BASE_PATH.BASE}`,
     element: <AppLayout />,
     errorElement: <ErrorPage />,
     children: [
